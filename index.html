@@ -3,8 +3,111 @@
 <head>
 	<meta charset="UTF-8">
 	<title>PubSub Pattern</title>
+
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+
 </head>
 <body>
 	
+	<header>		
+		<nav class="navbar navbar-expand-md navbar-dark-fixed-top bg-dark">
+			<a href="#" class="navbar-brand">Shopping</a>
+	        <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+	          <span class="navbar-toggler-icon"></span>
+	        </button>
+
+	        <div class="collapse navbar-collapse justify-content-end" id="navbarsExampleDefault">
+	          <ul class="nav">
+	            <li class="nav-item active">
+	              <a class="nav-link" href="#">
+	              	<i class="fa fa-shopping-cart" aria-hidden="true"></i>
+					<p class="added-items">0</p>
+	              </a>
+	            </li>
+	          </ul>
+	        </div>
+		</nav>
+	</header>
+
+
+	<div class="container-fluid">
+		
+		<div class="row">
+			
+			<div class="col-sm-3">
+			
+				<nav class="bg-light sidebar">
+					<ul class="nav nav-pills flex-column">
+							
+						<li class="nav-item">
+							<a href="#" class="nav-link">0 items agregados al carro</a>
+						</li>
+
+					</ul>
+				</nav>			
+	
+			</div>
+			<div class="col-sm-9">
+				
+
+				<section>
+					<div class="header-section align-middle">
+						<i class="fa fa-plus" aria-hidden="true"></i>
+						<img src="img/logojs.png">
+						<h2>Common Object Patterns</h2>
+					</div>
+					
+					<div class="body-section">
+						<p>Design patterns for working with objects in JavaScript</p>
+					</div>
+				</section>
+
+				<section>
+					<div class="header-section align-middle">
+						<i class="fa fa-plus" aria-hidden="true"></i>
+						<img src="img/logojs.png">
+						<h2>Timmer Patterns</h2>
+					</div>
+					
+					<div class="body-section">
+						<p>Design patterns for using timers</p>
+					</div>
+				</section>
+
+				<section>
+					<div class="header-section align-middle">
+						<i class="fa fa-plus" aria-hidden="true"></i>
+						<img src="img/logojs.png">
+						<h2>AMDs</h2>
+					</div>
+					
+					<div class="body-section">
+						<p>Understanding module patterns in JavaScript</p>
+					</div>
+				</section>
+
+				<section>
+					<div class="header-section align-middle">
+						<i class="fa fa-plus" aria-hidden="true"></i>
+						<img src="img/logojs.png">
+						<h2>Pub/Sub</h2>
+					</div>
+					
+					<div class="body-section">
+						<p>Implementing Pub/Sub in JavaScript</p>
+					</div>
+				</section>
+
+			</div>
+		</div>
+
+
+	</div>
+
+	<script src="js/scripts/require.js"></script>
+	<script src="js/scripts/jquery-3.2.1.js"></script>
+	<script src="js/bootstrap.min.js"></script>
 </body>
 </html>

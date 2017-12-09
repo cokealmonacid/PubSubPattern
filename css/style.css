@@ -1,0 +1,39 @@
+.navbar a{
+	color: #FFFFFF !important;
+}
+
+.added-items{
+	color: #FFFFFF;
+	display: inline-block;
+	margin-left: .5em;
+	margin-bottom: 0 !important;
+}
+
+
+.container-fluid{
+	margin-top: 1em;
+}
+
+.container-fluid .flex-column{
+	border: 1px solid #68666A;
+	border-radius: 5px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+
+.container-fluid .flex-column  .nav-link{
+	color: #303031 !important;
+}
+
+.header-section img{
+	margin-left: .5em;
+	width: 35px !important;
+	padding-bottom: 1em;
+}
+
+.header-section h2{
+	display: inline-block;
+	margin-bottom: 0 !important;
+	margin-left: .5em;
+}
