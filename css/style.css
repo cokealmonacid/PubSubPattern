@@ -14,11 +14,10 @@
 	margin-top: 1em;
 }
 
-.container-fluid .flex-column{
+.container-fluid .sidebar{
 	border: 1px solid #68666A;
 	border-radius: 5px;
-	padding-bottom: 10px;
-	padding-top: 10px;
+	padding:10px;
 }
 
 
