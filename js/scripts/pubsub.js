@@ -21,6 +21,22 @@ define(function(){
 			} else {
 				cache[id].push(fn);
 			}
+		},
+		unsub: function(id, fn){
+			var index;
+			if (!id) {
+				return;
+			}
+
+			if (!fn) {
+				cache[id] = [];
+			} else {
+				index = cache[id].indexOf(fn);
+				if (index > -1) {
+					cache[id] = cache[id].slice(0, index).concat(cache[id].slice(index + 1));
+				}
+			}
+
 		}
 	};
 });
